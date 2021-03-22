@@ -1,0 +1,78 @@
+*{
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background-image: url('../images/bgchadpb.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;    
+    width: 900px;    
+}
+.topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    
+}
+.nome{
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.profissao{
+    font-size: 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.column{
+    flex-direction: column;
+}
+article{
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+    opacity: 0.7;
+}
+#awards header{
+    background-color: #ffffff;
+    opacity: 0.7;
+    padding: 10px;
+    margin: 20px;
+}
+footer{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+.more a{
+    text-decoration: none;
+    color: #000;
+}
